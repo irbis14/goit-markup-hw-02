@@ -1,0 +1,137 @@
+:root {
+  --main-text-cl: #757575;
+  --accent-cl: #2196f3;
+  --black: #212121;
+  --white: #ffffff;
+  --bg-gray: #f5f4fa;
+  --bg-dark: #2f303a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+  background-color: var(--white);
+}
+
+address {
+  font-style: normal;
+}
+
+/* Задает фон */
+.gray-bg {
+  background-color: var(--bg-gray);
+}
+
+.dark-bg {
+  background-color: var(--bg-dark);
+}
+
+/* Основые свойства ссылок */
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-cl);
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--white);
+  background-color: var(--accent-cl);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo > span {
+  color: var(--accent-cl);
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--black);
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--black);
+}
+
+.section-lable {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.team-item {
+  text-align: center;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  color: var(--black);
+}
+
+.team-job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+}
+
+.dark-bg .logo {
+  color: var(--white);
+}
+
+.contacts-adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white);
+}
+
+.contacts-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
