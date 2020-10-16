@@ -45,22 +45,6 @@ address {
   list-style: none;
 }
 
-.btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  color: var(--black);
-  background-color: var(--gray);
-}
-
-.btn:hover,
-.btn:focus {
-  color: var(--white);
-  background-color: var(--accent-cl);
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -80,6 +64,29 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--black);
+}
+
+.contacts-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--black);
+  background-color: var(--gray);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--white);
+  background-color: var(--accent-cl);
 }
 
 .section-lable {
